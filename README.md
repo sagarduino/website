@@ -2,7 +2,7 @@
 
 This repo is synced to [sagarduino.fr](http://sagarduino.fr),
 if you see any mistake, please [submit an issue](https://github.com/sagarduino/website/issues)
-or a [pull request](https://github.com/sagarduino/website
+or a [pull request](https://github.com/sagarduino/website).
 
 Installation:
 
