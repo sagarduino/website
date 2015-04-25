@@ -25,7 +25,7 @@ gulp.task('install', ['bower'], function() {
     .pipe(gulp.dest('./dist/js/'));
 });
 
-gulp.task('serve', ['watch'], function () {
+gulp.task('serve', ['default', 'watch'], function () {
   connect.server({
       port: 8080,
       root: './dist',
