@@ -59,6 +59,11 @@ gulp.task('images', function () {
     .pipe(connect.reload());
 });
 
+gulp.task('favicon', function() {
+  gulp.src('./src/favicon.ico')
+    .pipe(gulp.dest('./dist'));
+});
+
 gulp.task('watch', function () {
   gulp.watch(['./src/**.html'], ['html']);
   gulp.watch(['./src/less/*.less'], ['less']);
