@@ -1,0 +1,21 @@
+{
+  "name": "sagardui.no",
+  "version": "0.0.1",
+  "authors": [
+    "gaspard <gaspard@gmail.com>"
+  ],
+  "description": "locate my dog with arduino",
+  "main": "src/index.html",
+  "dependencies": {
+    "bootstrap": "3.x",
+    "jquery": "2.x"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
