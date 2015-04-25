@@ -29,6 +29,18 @@ h6, .h6 {
   color: @color-bear;
 }
 
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.respiration {
+  padding: 50px 0;
+  img {
+    width: 200px;
+  }
+}
+
 
 /*
  * Override Bootstrap's default container.
@@ -47,14 +59,28 @@ h6, .h6 {
 section {
   padding: 2em 0;
 }
+
+.section-header {
+  .blog-main p {
+    font-size: 1em;
+  }
+}
+
 section.section-sample {
   background-color: #eee;
 
 }
 
 /*
- * Masthead for nav
+ * Masthead & logo for nav
  */
+
+.logo {
+  padding-top: 50px;
+  img {
+    width: 100px;
+  }
+}
 
 .blog-masthead {
   background-color: @color-subway;
